@@ -5,7 +5,9 @@ const Documentation = () => {
   return (
     <>
     <Navbar/>
-    <div>Documentation</div>
+    <div>Documentation
+      has been done .
+    </div>
     </>
   )
 }
