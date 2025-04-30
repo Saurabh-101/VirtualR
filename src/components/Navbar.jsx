@@ -33,7 +33,7 @@ const Navbar = () => {
                 </ul>
                 <div className="hidden lg:flex justify-center space-x-12 items-center">
                     <Link to="/signIn"  className="py-2 px-3 border rounded-md">Sing In</Link>
-                    <a href="/Register" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md">Create an account</a>
+                    <Link to="/Register" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md">Create an account</Link>
                 </div>
                 <div className="lg:hidden md:flex flex-col justify-end">
                     <button onClick={toggleNavbar}>
